@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>Web Development Quiz</h1>
+            <p>Test your knowledge in web development</p>
+        </header>
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+        <div id="quiz"></div>
+        <button id="next-btn" class="btn hidden">Next</button>
+        <div id="feedback" class="hidden"></div>
+        <div id="timer">Time: <span id="time">10:00</span></div>
+        <div id="score">Score: <span id="score-value">0</span></div>
+    </div>
+    <audio id="correct-sound" src="correct.mp3"></audio>
+    <audio id="incorrect-sound" src="incorrect.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
